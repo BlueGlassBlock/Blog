@@ -28,15 +28,19 @@ PDM 默认的策略是直接复用激活的环境，所以某位 Discord 用户�
 
 重装 Python 后，利用内置的 `venv` 模块，我们可以轻松地升级那些工具的独立环境：
 
-```powershell
-python -m venv --upgrade $env:USERPROFILE\.local\pipx\shared
+{% note primary %}
+更正，其实可以直接 `pipx reinstall-all`
+{% endnote %}
 
-foreach ($env_path in (Get-ChildItem -Path $env:USERPROFILE\.local\pipx\venvs)) {
-    python -m venv --upgrade $env_path 
-}
-```
-
-可以继续使用原来装好的工具了。
+> ```powershell
+> python -m venv --upgrade $env:USERPROFILE\.local\pipx\shared
+> 
+> foreach ($env_path in (Get-ChildItem -Path $env:USERPROFILE\.local\pipx\venvs)) {
+>     python -m venv --upgrade $env_path 
+> }
+> ```
+> 
+> 可以继续使用原来装好的工具了。
 
 # PIPX
 
