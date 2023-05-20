@@ -1,7 +1,7 @@
 ---
 title: 再次整理自己的 Python 环境
 date: 2023-05-20 15:42:50
-tags: python, windows, pipx
+tags: [python, windows, pipx]
 ---
 
 # 抛弃 miniconda
