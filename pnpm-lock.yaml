@@ -39,8 +39,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   hexo-renderer-marked:
-    specifier: ^6.1.0
-    version: 6.1.0
+    specifier: ^6.1.1
+    version: 6.1.1
   hexo-renderer-stylus:
     specifier: ^2.1.0
     version: 2.1.0
@@ -612,7 +612,7 @@ packages:
       css-what: 6.1.0
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.0.1
+      domutils: 3.1.0
     dev: false
 
   /cheerio@1.0.0-rc.12:
@@ -622,9 +622,9 @@ packages:
       cheerio-select: 2.1.0
       dom-serializer: 2.0.0
       domhandler: 5.0.3
-      domutils: 3.0.1
+      domutils: 3.1.0
       htmlparser2: 8.0.1
-      parse5: 7.0.0
+      parse5: 7.1.2
       parse5-htmlparser2-tree-adapter: 7.0.0
     dev: false
 
@@ -813,7 +813,7 @@ packages:
       boolbase: 1.0.0
       css-what: 6.1.0
       domhandler: 5.0.3
-      domutils: 3.0.1
+      domutils: 3.1.0
       nth-check: 2.1.1
     dev: false
 
@@ -1057,7 +1057,7 @@ packages:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      entities: 4.3.1
+      entities: 4.5.0
     dev: false
 
   /domelementtype@2.3.0:
@@ -1097,8 +1097,8 @@ packages:
       domhandler: 4.3.1
     dev: false
 
-  /domutils@3.0.1:
-    resolution: {integrity: sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==}
+  /domutils@3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -1184,11 +1184,6 @@ packages:
 
   /entities@3.0.1:
     resolution: {integrity: sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==}
-    engines: {node: '>=0.12'}
-    dev: false
-
-  /entities@4.3.1:
-    resolution: {integrity: sha512-o4q/dYJlmyjP2zfnaWDUC6A3BQFmVTX+tZPezK7k0GLSU9QYCauscf5Y+qcEPzKL+EixVouYDgLQK5H9GrLpkg==}
     engines: {node: '>=0.12'}
     dev: false
 
@@ -1991,12 +1986,12 @@ packages:
       ejs: 3.1.8
     dev: false
 
-  /hexo-renderer-marked@6.1.0:
-    resolution: {integrity: sha512-KuVuaYFyKfbJj5dtwoWMwTNbe7rk+UuVR/tGzLXbQ05AWO5ob6xpFHbfeSyzSDt4ccYLzaKJBRduDWHd2f6bSQ==}
+  /hexo-renderer-marked@6.1.1:
+    resolution: {integrity: sha512-vllmRFwl9A1NP/llQW2TbDnyvqaQKgktxXw7c+tK7XVQJmfIUnl32dr8M4jRYqYe5m9972eYm09kBXV8rBtA/A==}
     engines: {node: '>=14'}
     dependencies:
       dompurify: 3.0.3
-      hexo-util: 3.0.1
+      hexo-util: 3.1.0
       jsdom: 20.0.3
       marked: 4.3.0
     transitivePeerDependencies:
@@ -2055,20 +2050,20 @@ packages:
       deepmerge: 4.2.2
       highlight.js: 11.8.0
       htmlparser2: 7.2.0
-      prismjs: 1.28.0
+      prismjs: 1.29.0
       strip-indent: 3.0.0
     dev: false
 
-  /hexo-util@3.0.1:
-    resolution: {integrity: sha512-ri3WsEUWSfrjydYPeOaWvrYIzfVBiaXUy0846051MkuJxBcNtG2o87q0KFGiniSMmi0XxLQhSl415anU3+FFlA==}
+  /hexo-util@3.1.0:
+    resolution: {integrity: sha512-LmztAhkJHQ59VHqz6AnvwEKiNA0pCBBI0qW08cCzjhnpGoqZ8tlGDwElzy7oTxCvMChkiqg5V8VflhdI8tHsGg==}
     engines: {node: '>=14'}
+    requiresBuild: true
     dependencies:
-      bluebird: 3.7.2
       camel-case: 4.1.2
       cross-spawn: 7.0.3
       deepmerge: 4.2.2
       highlight.js: 11.8.0
-      htmlparser2: 8.0.1
+      htmlparser2: 9.0.0
       prismjs: 1.29.0
       strip-indent: 3.0.0
     dev: false
@@ -2156,8 +2151,17 @@ packages:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.0.1
-      entities: 4.3.1
+      domutils: 3.1.0
+      entities: 4.5.0
+    dev: false
+
+  /htmlparser2@9.0.0:
+    resolution: {integrity: sha512-uxbSI98wmFT/G4P2zXx4OVx04qWUmyFPrD2/CNepa2Zo3GPNaCaaxElDgwUrwYWkK1nr9fft0Ya8dws8coDLLQ==}
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      domutils: 3.1.0
+      entities: 4.5.0
     dev: false
 
   /http-cache-semantics@3.8.1:
@@ -3260,13 +3264,7 @@ packages:
     resolution: {integrity: sha512-B77tOZrqqfUfnVcOrUvfdLbz4pu4RopLD/4vmu3HUPswwTA8OH0EMW9BlWR2B0RCoiZRAHEUu7IxeP1Pd1UU+g==}
     dependencies:
       domhandler: 5.0.3
-      parse5: 7.0.0
-    dev: false
-
-  /parse5@7.0.0:
-    resolution: {integrity: sha512-y/t8IXSPWTuRZqXc0ajH/UwDj4mnqLEbSttNbThcFhGrZuOyoyvNBO85PBp2jQa55wY9d07PBNjsK8ZP3K5U6g==}
-    dependencies:
-      entities: 4.3.1
+      parse5: 7.1.2
     dev: false
 
   /parse5@7.1.2:
@@ -3424,11 +3422,6 @@ packages:
   /pretty-hrtime@1.0.3:
     resolution: {integrity: sha512-66hKPCr+72mlfiSjlEB1+45IjXSqvVAIy6mocupoww4tBFE9R9IhwwUGoI4G++Tc9Aq+2rxOt0RFU6gPcrte0A==}
     engines: {node: '>= 0.8'}
-    dev: false
-
-  /prismjs@1.28.0:
-    resolution: {integrity: sha512-8aaXdYvl1F7iC7Xm1spqSaY/OJBpYW3v+KJ+F17iYxvdc8sfjW194COK5wVhMZX45tGteiBQgdvD/nhxcRwylw==}
-    engines: {node: '>=6'}
     dev: false
 
   /prismjs@1.29.0:
