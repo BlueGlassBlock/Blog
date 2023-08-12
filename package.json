@@ -30,7 +30,7 @@
     "hexo-theme-landscape": "^1.0.0",
     "highlight.js": "^11.8.0",
     "nunjucks": "^3.2.4",
-    "prettier": "^3.0.0",
+    "prettier": "^3.0.1",
     "stylus": "^0.59.0"
   }
 }
