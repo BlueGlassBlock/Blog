@@ -54,8 +54,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   highlight.js:
-    specifier: ^11.8.0
-    version: 11.8.0
+    specifier: ^11.9.0
+    version: 11.9.0
   nunjucks:
     specifier: ^3.2.4
     version: 3.2.4
@@ -2046,7 +2046,7 @@ packages:
       camel-case: 4.1.2
       cross-spawn: 7.0.3
       deepmerge: 4.2.2
-      highlight.js: 11.8.0
+      highlight.js: 11.9.0
       htmlparser2: 7.2.0
       prismjs: 1.29.0
       strip-indent: 3.0.0
@@ -2060,7 +2060,7 @@ packages:
       camel-case: 4.1.2
       cross-spawn: 7.0.3
       deepmerge: 4.2.2
-      highlight.js: 11.8.0
+      highlight.js: 11.9.0
       htmlparser2: 9.0.0
       prismjs: 1.29.0
       strip-indent: 3.0.0
@@ -2099,8 +2099,8 @@ packages:
       - chokidar
     dev: false
 
-  /highlight.js@11.8.0:
-    resolution: {integrity: sha512-MedQhoqVdr0U6SSnWPzfiadUcDHfN/Wzq25AkXiQv9oiOO/sG0S7XkvpFIqWBl9Yq1UYyYOOVORs5UW2XlPyzg==}
+  /highlight.js@11.9.0:
+    resolution: {integrity: sha512-fJ7cW7fQGCYAkgv4CPfwFHrfd/cLS4Hau96JuJ+ZTOWhjnhoeN1ub1tFmALm/+lW5z4WCAuAV9bm05AP0mS6Gw==}
     engines: {node: '>=12.0.0'}
     dev: false
 
