@@ -16,7 +16,7 @@
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "hexo": "^6.3.0",
+    "hexo": "^7.0.0",
     "hexo-all-minifier": "^0.5.7",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
