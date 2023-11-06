@@ -31,6 +31,6 @@
     "highlight.js": "^11.8.0",
     "nunjucks": "^3.2.4",
     "prettier": "^3.0.1",
-    "stylus": "^0.60.0"
+    "stylus": "^0.61.0"
   }
 }

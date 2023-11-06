@@ -6,9 +6,9 @@
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
 
-"@adobe/css-tools@~4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.2.0.tgz#e1a84fca468f4b337816fcb7f0964beb620ba855"
+"@adobe/css-tools@~4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.3.1.tgz#abfccb8ca78075a2b6187345c26243c1a0842f28"
 
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.2.0"
@@ -3112,6 +3112,10 @@ sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
 
+sax@~1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.3.0.tgz#a5dbe77db3be05c9d1ee7785dbd3ea9de51593d0"
+
 saxes@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/saxes/-/saxes-6.0.0.tgz#fe5b4a4768df4f14a201b1ba6a65c1f3d9988cc5"
@@ -3380,14 +3384,14 @@ stylus@^0.57.0:
     sax "~1.2.4"
     source-map "^0.7.3"
 
-stylus@^0.60.0:
-  version "0.60.0"
-  resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.60.0.tgz#0d75f3772929185d580d164d9394b2dcbed21083"
+stylus@^0.61.0:
+  version "0.61.0"
+  resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.61.0.tgz#d90a4334486a1622cc6d3d5e878087376dc478a6"
   dependencies:
-    "@adobe/css-tools" "~4.2.0"
+    "@adobe/css-tools" "~4.3.1"
     debug "^4.3.2"
     glob "^7.1.6"
-    sax "~1.2.4"
+    sax "~1.3.0"
     source-map "^0.7.3"
 
 supports-color@^2.0.0:
