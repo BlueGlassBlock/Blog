@@ -172,17 +172,17 @@ python read.py --series SDFE --version 4 --binfolder K:\Arcade\SDFE\App\WindowsN
 
 需要联网游戏请设置 `segatools.ini` 中的 `dns.default` 为服务器地址（上文 `HOSTNAME` 对应的 IP 地址）。
 
-## 各个游戏踩坑记录
+# 各个游戏踩坑记录
 
-# 音击 / O.N.G.E.K.I.
+## 音击 / O.N.G.E.K.I.
 
 `segatools` 安装后游戏下方仍会显示 `Credit: 0`，但是其实可以直接开始游戏（GP 是免费购买的）。
 
-# 中二节奏 / CHUNITHM
+## 中二节奏 / CHUNITHM
 
 分辨率锁定 1920x1080 无法修改。
 
-# 华卡音舞 / WACCA
+## 华卡音舞 / WACCA
 
 分辨率修改：修改 `WindowsNoEditor/Mercury/Config/DefaultGameUserSettings.ini` 内 `resolution` 相关项。 
 
